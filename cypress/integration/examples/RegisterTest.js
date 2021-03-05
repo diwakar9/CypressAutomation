@@ -13,7 +13,8 @@ describe('Register',function()
     it('Register and Login', function()
     {
         const reg = new RegisterRecord()
-        reg.VisitPage()        
+        reg.VisitPage()  
+        //Yser Register      
         for(var JSONlist = 1; JSONlist <= 5; JSONlist++)
         {
             reg.ClickRegister()
@@ -27,6 +28,7 @@ describe('Register',function()
             reg.RegistrationMessage()
             reg.Logout()            
         }  
+        // User Login
         for(var loginUser = 1; loginUser = 5; loginUser++)
         {
             var email = this.data[0][loginUser.toString()][2]
