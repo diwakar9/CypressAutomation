@@ -1,4 +1,4 @@
-{
+[{
   "name": "Using fixtures to represent data",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
@@ -7,4 +7,4 @@
   "3": ["FName3",	"LName3",	"email3@mailinator.com",	"Password3@",	"Password3@"],
   "4": ["FName4",	"LName4",	"email4@mailinator.com",	"Password4@",	"Password4@"],
   "5": ["FName5",	"LName5",	"email5@mailinator.com",	"Password5@",	"Password5@"]
-}
+}]
