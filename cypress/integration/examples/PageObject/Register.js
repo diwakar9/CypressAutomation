@@ -29,21 +29,12 @@ class RegisterRecord
     RegistrationMessage()
     {
         cy.get('div[class=result]').should('have.text', 'Your registration completed');              
-    }    
-
+    }   
+    
     Logout()
     {
         cy.get('.ico-logout').click()
         cy.get('.ico-login').should('be.visible')
-    }
-
-    Login(email, password)
-    {
-        cy.get('.ico-login').click()
-        cy.get('#Email').type(email)
-        cy.get('#Password').type(password)
-        cy.get('.login-button').click()
-        cy.get('.ico-logout').should('be.visible')
-    }
+    }    
 }
 export default RegisterRecord

@@ -2,9 +2,9 @@
   "name": "Using fixtures to represent data",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
-  "1": ["FName1",	"LName1",	"Email1@mailinator.com",	"Password1@",	"Password1@"],
-  "2": ["FName2",	"LName2",	"Email2@mailinator.com",	"Password2@",	"Password2@"],
-  "3": ["FName3",	"LName3",	"Email3@mailinator.com",	"Password3@",	"Password3@"],
-  "4": ["FName4",	"LName4",	"Email4@mailinator.com",	"Password4@",	"Password4@"],
-  "5": ["FName5",	"LName5",	"Email5@mailinator.com",	"Password5@",	"Password5@"]
+  "1": ["FName1",	"LName1",	"UserEmail1@mailinator.com",	"Password1@",	"Password1@"],
+  "2": ["FName2",	"LName2",	"UserEmail2@mailinator.com",	"Password2@",	"Password2@"],
+  "3": ["FName3",	"LName3",	"UserEmail3@mailinator.com",	"Password3@",	"Password3@"],
+  "4": ["FName4",	"LName4",	"UserEmail4@mailinator.com",	"Password4@",	"Password4@"],
+  "5": ["FName5",	"LName5",	"UserEmail5@mailinator.com",	"Password5@",	"Password5@"]
 }]
