@@ -14,7 +14,7 @@ describe('Register',function()
     {
         const reg = new RegisterRecord()
         reg.VisitPage()  
-        //Yser Register      
+        //User Register      
         for(var JSONlist = 1; JSONlist <= 5; JSONlist++)
         {
             reg.ClickRegister()
