@@ -1,4 +1,4 @@
-import RegisterRecord from './PageObject/Register'
+import RegisterRecord from '../Page/Register'
 
 describe('Register',function()
 {

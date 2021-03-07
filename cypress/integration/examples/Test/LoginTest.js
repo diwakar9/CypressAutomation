@@ -1,5 +1,5 @@
-import RegisterRecord from './PageObject/Register'
-import LoginUser from './PageObject/Login'
+import RegisterRecord from '../Page/Register'
+import LoginUser from '../Page/Login'
 
 describe('Register',function()
 {
